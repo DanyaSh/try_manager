@@ -1,7 +1,9 @@
 import time
-from config import TOKEN
+# from config import TOKEN
 from aiogram import Bot, Dispatcher, types
 # from vpnme import bot
+
+TOKEN="YOUR_TOKEN_HERE"
 
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML) 
 
